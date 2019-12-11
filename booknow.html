@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Royal Garden Hotel</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Royal Garden Hotel | Hawaii">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+<!--Home Page-->
+    <body>
+        <div class="container">
+            <div class="nav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="condosuites.html">CONDO SUITES</a></li>
+                    <li><a href="booknow.html">BOOK NOW</a></li>
+                    <li><a href="eat-drink-dance-shop.html">EAT DRINK DANCE & SHOP</a></li>
+                    <li><a href="about_contact.html">ABOUT & CONTACT</a></li>
+                </ul>
+            </div>
+            <!--LOGO-->
+            <div class="main6">
+                <a href="index.html">
+                <center> 
+                <img src="img/logo.png" alt=logo width="200" height="200">
+                </center>
+                </a>
+                <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans&display=swap" rel="stylesheet">
+                <h1>
+                    “ADVENTURE IS WORHTWHILE.” — AESOP
+                </h1>
+            </div>
+
+            <div class="booknow">
+                <h1>BOOK NOW</h1>
+            </div>
+
+            <div class="tablebook">
+
+                <table><form actions="form.php">
+                    <h2>STEP 1. CHECK AVAILABILITY</h2>
+                    <tr>
+                        <td>
+                            Arrival
+                            <input type="date" name="Arrival">
+                        </td>
+                        <td>
+                            Departure
+                            <input type="date" name="Departure">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                                <label>Suite</label>
+                                <select id = "myList">
+                                    <option value= "Blank">-</option>
+                                    <option value = "Queen Kapiolani Room">Queen Kapiolani Room</option>
+                                    <option value = "Princess Kuhio Loggia">Princess Kuhio Loggia</option>
+                                    <option value = "King Kalakaua Room">King Kalakaua Room</option>
+                                </select>
+                        </td>
+                        <td>
+                            <label>Adult(s)</label>
+                            <select id="myList">
+                                <option value="Blank">-</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                                <label>Kid(s)</label>
+                                <select id="myList">
+                                <option value="Blank">-</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                </select>
+                        </td>
+                        <tr rowspan="3" colspan="2" align="center">
+                            <td rowspan="3" colspan="2"><button type="button">Check Availability</button></td>
+                        </tr>
+                    </tr>
+                </form></table>
+            </div>
+            
+                
+            <div class="billing">
+                <table><form actions="form.php">
+                    <h2>STEP 2. BILLING DETAILS</h2>
+                    <tr>
+                        <th>Personal Data</th>
+                        <th>Address</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Salutation</label>
+                            <select id="myList">
+                                <option value="Blank">-</option>
+                                <option value="Mr">Mr.</option>
+                                <option value="Mrs.">Mrs.</option>
+                                <option value="Miss">Miss</option>
+                                <option value="Mr. & Mrs.">Mr. & Mrs.</option>
+                                <option value="Dr.">Dr.</option>
+                            </select>
+                        </td>
+                        <td>Street<input type="text" name="Street"></td>
+                   </tr>
+                   <tr>
+                       <td>First Name<input type="text" name="First Name"></td>
+                       <td>Postal Code<input type="text" name="Postal Code"></td>
+                   </tr>
+                   <tr>
+                       <td>Last Name<input type="text" name="Last Name"></td>
+                       <td>City<input type="text" name="City"></td>
+                   </tr>
+                   <tr>
+                       <td>E-mail<input type="text" name="E-mail"></td>
+                       <td>Country<input type="text" name="Country"></td>
+                   </tr>
+                   <tr>
+                       <td></td>
+                       <td>Phone #<input type="text" name="Phone #"></td>
+                   </tr>
+                </form></table>
+            </div>
+
+            <div class="payment">
+                <table>
+                    <h2>STEP 3. PAYMENT METHOD</h2>
+                   <tr colspan="1">
+                    <td colspan="1">
+                        <label>Credit Card</label>
+                        <select id="myList">
+                            <option value="Blank">-</option>
+                            <option value="Visa">Visa</option>
+                            <option value="MasterCard">MasterCard</option>
+                            <option value="American Express">Amex</option>
+                        </select>
+                    </td>
+                    <td></td>
+                    </tr>
+                    <tr colspan="2">
+                    <td colspan="2">Card Number * <br><input type="text" name="Card Number *"></td>
+                    <td></td>
+                    </tr>
+                    <tr>
+                        <td>Expiration Date* <br><input type="date" name="date"></td>
+                        <td>Security Code* <br><input type="text" name="code"></td>
+                    </tr>
+                    <tr colspan="4">
+                        <td colspan="4"><input type="checkbox">I have read and accept privacy policy</td>
+                    </tr>
+                    <tr colspan="5">
+                        <td colspan="5"><button type="button">Confirm & Pay</button></td>
+                    </tr>
+                </table>
+            </div>
+    
+  
+
+            <div class="footer">All rights reserved &copy;2019 Honolulu, Hawaii, Designed by KB </div>
+        </div>
+
+
+    </body>
+</html>
